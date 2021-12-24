@@ -1,0 +1,56 @@
+body {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.userGit{
+    object-fit: contain;
+    overflow: hidden;
+    background-size: cover;
+    margin: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.popup{
+    display:none;
+}
+
+.popupView{
+    z-index:2;
+    display:block;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 234, 255);
+    opacity: 0.3;
+}
+
+.container{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: 25%;
+    left: 40%;
+    border: 1px solid #000;
+    background: rgb(154, 245, 80);
+    opacity: 1.0;
+}
+
+.close{
+    position: absolute;
+    right: 1%;
+    color: #ff0000;
+    padding-left: 170px;
+    font-size: 28px;
+}
+
+.close:hover{
+    color: #810000;
+}
+
+.userCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
